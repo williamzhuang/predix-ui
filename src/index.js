@@ -47,10 +47,7 @@ import ExampleComponent from './px-example-component';
 // TODO: DataViz
 import Gauge from './Gauge';
 
-
-
 //import Theme from './Theme';
-
 const LayoutItem = ({style, children}) => {
   return (<div style={style} className='layout__item'>{children}</div>);
 };
