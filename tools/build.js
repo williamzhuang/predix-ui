@@ -27,7 +27,7 @@ const babelPlugins = [
   'transform-react-remove-prop-types',
   'transform-es2015-destructuring',
   'transform-es2015-function-name',
-  'transform-es2015-parameters',
+  'transform-es2015-parameters'
   /*
   ['css-modules-transform', {
     "devMode": true,
