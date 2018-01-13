@@ -12,8 +12,7 @@
     }]
   ],
   "plugins": [
-    "styled-jsx/babel",
-    { "plugins": ["styled-jsx-plugin-sass"] },
+    ["styled-jsx/babel",{ "plugins": ["styled-jsx-plugin-sass"] }],
     [
       "transform-react-remove-prop-types",
       {
@@ -28,21 +27,7 @@
         "react-hmre"
       ]
     },
-    "development": {
-      "presets": [
-        "es2015"
-      ]
-    },
-    "dist": {
-      "presets": [
-        "es2015"
-      ]
-    },
-    "distMin": {
-      "presets": [
-        "es2015"
-      ]
-    },
+
     "ghPages": {
       "presets": [
         "es2015"

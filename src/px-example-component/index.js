@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import BaseComponent from '../BaseComponent';
 
 
-//import stylesheet from './px-example-component.scss';
+import stylesheet from './px-example-component.scss';
 /**
  * px-example-component component
  */
