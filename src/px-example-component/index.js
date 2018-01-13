@@ -1,8 +1,10 @@
 import React from 'react';
 import classnames from 'classnames';
-import stylesheet from './px-example-component.scss';
+
 import BaseComponent from '../BaseComponent';
 
+
+//import stylesheet from './px-example-component.scss';
 /**
  * px-example-component component
  */
@@ -23,7 +25,14 @@ export default class ExampleComponent extends BaseComponent {
 			<div className={baseClasses} style={style}>
 				<h4 className={stylesheet.title}>{label}</h4>
 				<div>{children}</div>
-				<style jsx>{stylesheet}</style>
+				<style jsx>{`
+				 .px-example-component {
+           background: green;
+           padding: 1rem;
+
+         }
+
+				`}</style>
 			</div>
 		);
 	}
